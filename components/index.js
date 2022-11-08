@@ -4,4 +4,5 @@ export { default as Layout } from "./Layout";
 export { default as Hero } from "./Hero";
 export { default as Navbar } from "./Navbar";
 export { default as Socials } from "./Socials";
-export { default as Join } from "./Join";
+export { default as DropIn } from "./DropIn";
+export { default as SocialCard } from "./socials/SocialCard";

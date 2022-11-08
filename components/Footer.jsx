@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaTiktok, FaInstagram, FaDiscord } from "react-icons/fa";
+import { FaTiktok, FaInstagram, FaDiscord, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -14,8 +14,13 @@ const Footer = () => {
           </a>
         </Link>
         <Link href="/">
-          <a className="footer-icon">
+          <a className="footer-icon-tik">
             <FaTiktok />
+          </a>
+        </Link>
+        <Link href="/">
+          <a className="footer-icon">
+            <FaYoutube />
           </a>
         </Link>
         <Link href="/">
